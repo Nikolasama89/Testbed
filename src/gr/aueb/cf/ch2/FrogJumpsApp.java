@@ -6,6 +6,9 @@ package gr.aueb.cf.ch2;
  * to go at a position equal or greater to Y. The frog
  * jumps a fixed distance D.
  * Find the number of the jumps
+ * X = 10
+ * Y = 85
+ * D = 30
  */
 
 public class FrogJumpsApp {
