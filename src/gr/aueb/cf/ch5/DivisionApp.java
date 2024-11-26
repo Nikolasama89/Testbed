@@ -1,5 +1,7 @@
 package gr.aueb.cf.ch5;
 
+import java.util.Scanner;
+
 /**
  * Double Demo
  */
@@ -7,10 +9,16 @@ package gr.aueb.cf.ch5;
 public class DivisionApp {
 
     public static void main(String[] args) {
-        double num1 = 8.5;
-        double num2 = 3.1;
+        double num1;
+        double num2;
         double div = 0d;
         double mod = 0.0;
+        float myFloat = 5.6F;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please enter two doubles");
+        num1 = sc.nextDouble();
+        num2 = sc.nextDouble();
 
         div = num1 / num2;
         mod = num1 % num2;
